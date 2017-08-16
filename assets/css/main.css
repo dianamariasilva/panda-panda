@@ -1,6 +1,7 @@
-
 p{
 	margin: 10px;
+	float: left;
+	padding: 30px;
 }
 
 body{
@@ -14,6 +15,9 @@ ul{
 	margin: 0;
 	padding-left: 20px;
 	overflow: hidden;
+}
+
+.inicio{
 	background-color: #FE2E2E;
 }
 
@@ -42,12 +46,13 @@ li a:hover:not(.active){
 .imagenes{
 	float: left;
 	display: inline-block;
-	width: 240px;
-	height: 240px;
+	width: 140px;
+	height: 140px;
 	padding-left: 20px;
 	padding-top: 20px;
 	border: grey solid 1rem;
 	margin:20px;
+	background-color: none;
 }
 .img1, .img2, .img3, .img4{
 	background-repeat: no-repeat;
@@ -88,13 +93,29 @@ button{
   	margin-left:30px;
   	width: 350px;
 }
+
+.btn{
+	font-family: verdana;
+	border: none;
+	text-decoration: none;
+  	padding: 1px;
+  	font-family: arial;
+  	padding-left: 1px;
+  	padding-right: 3px;
+  	font-size: 25px;
+  	color: white;
+  	background-color: #FE2E2E;
+  	margin-left:3px;
+  	width: 30px;
+}
+
+
 button:hover{
   	color: #9b0e0e;
   	background-color: #bc6355;
   	text-decoration: none;
 }
 
-p{
-	float: left;
-	padding: 30px;
+#container_images{
+	background-color: none;
 }
